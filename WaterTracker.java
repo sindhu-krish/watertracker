@@ -12,7 +12,7 @@ public class WaterTracker {
             double percentage = ((double) totalDrank / dailyGoal) * 100;
             
             System.out.printf("\nProgress: %.1f%% (%d/%dml)\n", percentage, totalDrank, dailyGoal);
-            System.out.print("Enter amount drank (ml) or '0' to stop: ");
+            System.out.print(0"Enter amount drank (ml) or '0' to stop: ");
             
             if (!input.hasNextInt()) {
                 System.out.println("Please enter a valid number.");
